@@ -32,6 +32,12 @@
 * Specialities: Development and Operation of Oil and Gas Fields
 
 ### Courses: 
-* EPAM Jan.2021: FRONT-END DEVELOPMENT
+* EPAM Jan.2021: Front-End Development
 * Html Academy
 * Code Academy
+
+### Languages
+* Belorussian (native)
+* Russian (native)
+* English - B1
+* Ukrainian
