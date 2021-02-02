@@ -37,7 +37,7 @@
 * Code Academy
 
 ### Languages
-* Belorussian (native)
+* Belarusian (native)
 * Russian (native)
 * English - B1
 * Ukrainian
