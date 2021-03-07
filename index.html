@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1 class="user">Dmitriy Kukareko</h1>
+      <div class="info">
+        <figure class="info-photo">
+          <img class="photo" src="img/foto.jpg" alt="foto: Dmitriy Kukareko">
+        </figure>
+        <div class="summary">
+          <h2 class="summary-title">Summary:</h2>
+          <p class="summary-text">Education - mining engineer. I want to become a front-end developer and I strive for
+            it.</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <h2 class="section-title">Contacts:</h2>
+        <ul class="section-list">
+          <li><b>Address:</b> Republic of Belarus, Gomel</li>
+          <li><b>Email:</b> dv.kukareko@gmail.com</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2 class="section-title">Skills:</h2>
+        <ul class="section-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SASS/SCSS</li>
+          <li>Bootstrap</li>
+          <li>Git</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2 class="section-title">Code example:</h2>
+        <pre class="section-content">
+          <code>
+btn.addEventListener('click', resCount);
+
+function resCount() {
+  let result = document.getElementsByTagName('div');
+  jsConsole.writeLine('Количество тегов: ' + result.length);
+}
+          </code>
+        </pre>
+      </section>
+      <section class="section">
+        <h2 class="section-title">Education:</h2>
+        <h3 class="section-subtitle">SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL (2009 - 2014)</h3>
+        <p class="section-text">Mechanical Engineering Faculty <br>
+          Specialities: Development and Operation of Oil and Gas Fields</p>
+        <h3 class="section-subtitle">Courses:</h3>
+        <ul>
+          <li>EPAM Jan.2021: Front-End Development</li>
+          <li>Html Academy</li>
+          <li>Code Academy</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2 class="section-title">Languages:</h2>
+        <ul>
+          <li>English - B1</li>
+          <li>Belarusian (native)</li>
+          <li>Russian (native)</li>
+          <li>Ukrainian</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <a href="https://rs.school/js/" target="_blank">
+          <img class="logo" src="img/rs_school_js.svg" alt="logo rsschool js">
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/dmitriykukareko" target="_blank">
+          <img class="git" src="img/github.svg" alt="github: Dmitriy Kukareko">
+        </a>
+      </div>
+      <div>
+        <p class="footer-text">&copy;2021</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
